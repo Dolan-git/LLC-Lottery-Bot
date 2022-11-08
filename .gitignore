@@ -1,0 +1,5 @@
+secrets.env
+/venv/
+**/__pycache__/
+.vscode/
+config.yaml
