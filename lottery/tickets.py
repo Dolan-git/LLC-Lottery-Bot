@@ -1,4 +1,4 @@
-from apis.cnft_tools import fetchTicketsMinted
+from apis.opencnft import fetchTicketsMinted
 
 class Tickets:
     def __init__(self):
@@ -6,3 +6,4 @@ class Tickets:
     
     def update_tickets_minted(self):
         self.minted = fetchTicketsMinted()
+
